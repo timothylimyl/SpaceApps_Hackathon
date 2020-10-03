@@ -15,7 +15,7 @@ The smartphone app proposed will have features such as remote sensing technology
 
 ## Remote Sensing Technology 
 
-The remote sensing technology will done by collecting free open-source satellite data from space agencies around the world such as NASA and ESA.
+The remote sensing technology will done by collecting free open-source satellite data from space agencies around the world such as NASA, CSA, CNES, JAXA, and ESA.
 
 
 edgar + jiaren write more ...? put some maps, your findings.
