@@ -1,4 +1,4 @@
-# NASA SpaceApps Hackathon
+# NASA SpaceApps Hackathon (AgriCarer)
 
 ## Introduction
 
