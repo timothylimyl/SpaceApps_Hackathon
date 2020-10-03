@@ -34,7 +34,13 @@ In this case of our proof, we decided to train on a subset of the PlantVillage d
 
 
 
-However, it is worth noting that the model trained on PlantVillage data does not transfer well to the real-domain which is of expectation as the AI system is trained using supervised learning. Supervised learning depends heavily on the quantity, quality and diversity of the datasets to perform well. The PlantVillage database is taken under controlled lab conditions with a single leaf in the photo. Thus, when a plant is taken as a whole, the AI will most probably fail to classify correctly as the AI is overfitting the images taken under controlled lab conditions.  An example of misclassification, a healthy tomato plant is classified as late blight:
+However, it is worth noting that the model trained on PlantVillage data does not transfer well to the real-domain which is of expectation as the AI system is trained using supervised learning. Supervised learning depends heavily on the quantity, quality and diversity of the datasets to perform well. The PlantVillage database is taken under controlled lab conditions with a single leaf in the photo. 
+
+<p align="center">
+  <img src="https://github.com/timothylimyl/SpaceApps_Hackathon/blob/main/images/plantvillage_sample.JPG" alt="Sublime's custom image"/>
+</p>
+
+Thus, when a plant is taken as a whole, the AI will most probably fail to classify correctly as the AI is overfitting the images taken under controlled lab conditions.  An example of misclassification, a healthy tomato plant is classified as late blight:
 
 <p align="center">
   <img src="https://github.com/timothylimyl/SpaceApps_Hackathon/blob/main/images/misclassification.JPG" alt="Sublime's custom image"/>
