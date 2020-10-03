@@ -24,7 +24,7 @@ edgar + jiaren write more ...? put some maps, your findings.
 
 ## Plant Disease Diagnosis
 
-This repository consist of a simple prototype/proof of an AI system that is able to classify different plant diseases. We used the FastAI API to train on our dataset. The dataset was obtained from PlantVillage.[PlantVillage](https://arxiv.org/abs/1511.08060)is an open-source dataset consisting of over 50,000 expertly curated images of healthy and infected leaves of crop plants. 
+This repository consist of a simple prototype/proof of an AI system that is able to classify different plant diseases. We used the FastAI API to train on our dataset. The dataset was obtained from PlantVillage. [PlantVillage](https://arxiv.org/abs/1511.08060) is an open-source dataset consisting of over 50,000 expertly curated images of healthy and infected leaves of crop plants. 
 
 In this case of our proof, we decided to train on a subset of the PlantVillage dataset and took only three categories namely Tomato Healthy, Tomato Early Blight and Tomato Late Blight. Data used can be found [HERE](https://drive.google.com/drive/folders/1fLFJAc4h7pcL2QFuUs2R-R8-i32eg44L?usp=sharing), there is a total of 4500 raw images in it. Utilising a ResNet50 with data augmentation, we were already able to achieve  98.89% accuracy on the validation set consisting of 900 images (20% of 4500 raw images was used for validation) as seen of the confusion matrix below:
 
