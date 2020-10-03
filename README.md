@@ -34,7 +34,7 @@ Classification in action:
 
 However, it is worth noting that the model trained on PlantVillage data does not transfer well to the real-domain which is of expectation as the AI system is trained using supervised learning. Supervised learning depends heavily on the quantity, quality and diversity of the datasets to perform well. The PlantVillage database is taken under controlled lab conditions with a single leaf in the photo. Thus, when a plant is taken as a whole, the AI will most probably fail to classify correctly as the AI is overfitting the images taken under controlled lab conditions.  An example of misclassification, a healthy tomato plant is classified as late blight:
 
-![late](images/misclassification.png)
+![late](images/misclassification.JPG)
 
 
 
