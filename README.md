@@ -34,7 +34,7 @@ In this case of our proof, we decided to train on a subset of the PlantVillage d
 
 
 
-However, it is worth noting that the model trained on PlantVillage data does not transfer well to the real-domain which is of expectation as the AI system is trained using supervised learning. Supervised learning depends heavily on the quantity, quality and diversity of the datasets to perform well. The PlantVillage database is taken under controlled lab conditions with a single leaf in the photo. 
+However, it is worth noting that the model trained on PlantVillage data does not transfer well to the real-domain which is of expectation as the AI system is trained using supervised learning. Supervised learning depends heavily on the quantity, quality and diversity of the datasets to perform well. The PlantVillage database is taken under controlled lab conditions with a single leaf in the photo as shown below. 
 
 <p align="center">
   <img src="https://github.com/timothylimyl/SpaceApps_Hackathon/blob/main/images/plantvillage_sample.JPG" alt="Sublime's custom image"/>
@@ -47,7 +47,7 @@ Thus, when a plant is taken as a whole, the AI will most probably fail to classi
 </p>
 
 
-Our team is well aware of this problem which is why we believe this makes the app an even better idea for mass data collection to train a more robust AI model. We believe that by pre-processing images taken by the farmer and allowing farmers to pick out leaves of interest for diagnosis (classification) will ensure great AI classification results that farmers can confidently trust in. The most important principle for success is a sound standardized imaging procedure that yields repeatable results. Our team also believes that the classifier can be extended to classify pests to support farmers.
+Our team is well aware of the problem of misclassification which is why we believe that this making an app that is widely available and accessible is a great idea for mass data collection in order to train a more robust AI model. We believe that by pre-processing images taken by the farmer and allowing farmers to pick out leaves of interest for diagnosis (classification) will ensure great AI classification results that farmers can confidently trust in. The most important principle for success is a sound standardized imaging procedure that yields repeatable results. Our team also believes that the classifier can be extended to classify pests to support farmers.
 
 An illustration of our app prototype after the classifying process:
 
