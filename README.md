@@ -6,7 +6,7 @@ Our team (AgriCarer) is seeking to tackle the knowledge inequality problem curre
 
 
 # Idea Proposal
-We are proposing an user friendly smartphone app to support farmers with state-of-the-art technologies and expert research advice to solve the problem of the knowledge gap and the problem of yield losses in crop plants. Most local farmers that we talked to does not have the necessary extra funds to invest in technology and they are also averse to new technology. Therefore, a smartphone app was suggested by the team as it will lower down the cost of entry for farmers as most farmers already owns a smartphone which makes the technology much easier to adopt.
+We are proposing an user friendly smartphone app to support farmers with state-of-the-art technologies and expert research advice to solve the problem of the knowledge gap and the problem of yield losses in crop plants. Most local farmers that we talked to do not have the necessary extra funds to invest in technology and they are also averse to new technology. Therefore, a smartphone app was suggested by the team as it will lower the cost of entry for farmers as most farmers already own a smartphone, making the technology much easier to adopt.
 
 
 The smartphone app proposed will have features such as remote sensing technology, plant disease diagnosis, and timely reminders to support farmers in taking care of their farms. 
