@@ -1,21 +1,24 @@
-# NASA SpaceApps Hackathon (Team AgriCarer)
+# NASA SpaceApps Hackathon (Team AgriCarer | Better Together)
 
 ## Introduction
 
-Our team (AgriCarer) is seeking to tackle the knowledge inequality problem currently faced by many farmers from developing countries. From our research and personal conversations with a local farmer in Malaysia, we found that most farmers in developing countries are smallholders farmers that generally lack access to best agriculture practices, data and information. Smallholders farmers do not have funding/investments necessary to procure state-of-the-art technologies and seek expert advice. Thus, local farmers are very vulnerable to the occurences of diseases and pest in ruining their entire crop and reducing their crop productivity. In some cases, the whole farm may have no yield as none of the proper actions were taken due to the lack of knowledge. This can lead to problems such as food insecurity, environmental issues and harm to the wellbeing of the farmers.
+Our team (AgriCarer) is seeking to tackle the knowledge inequality problem currently faced by many small and family owned farms. From our research and personal conversations with a local farmer in Malaysia, we found that most farmers in developing countries are smallholders farmers that generally lack access to best agriculture practices, information and technology. Smallholders farmers do not have the necessary funding to procure state-of-the-art technologies and seek expert advice. 
 
+Thus, local farmers are very vulnerable to the occurences of diseases and pest in ruining their entire crop and reducing their crop productivity. In some cases, the whole farm may have no yield as none of the proper actions were taken due to the lack of knowledge. This can lead to problems such as food insecurity, environmental issues and harm to the wellbeing of the farmers.
 
+This issue of knowledge inequality needs to be addressed immediately to level the playing field of food production and most importantly ensuring food security.
+ 
 # Idea Proposal
 
-We are proposing an user friendly smartphone app (AgriCare) to support farmers with state-of-the-art technologies and expert research advice to solve the problem of the knowledge gap and the problem of yield losses in crop plants. Most local farmers that we talked to do not have the necessary extra funds to invest in technology and they are also averse to new technology. Therefore, a smartphone app was suggested by the team as it will lower the cost of entry for farmers as most farmers already own a smartphone, making the technology much easier to adopt for smallholders farmers that needs it the most.
+We are proposing an user friendly smartphone app (AgriCare) to support farmers with state-of-the-art technologies and expert research advice to solve the problem of the knowledge gap and the problem of yield losses in crop plants. Most local farmers that we talked to do not have the necessary extra funds to invest in technology and have an aversion to new technology.. Therefore, a smartphone app was suggested by the team as it will lower the cost of entry for farmers as most farmers already own a smartphone, making the technology much easier to adopt for smallholders farmers that needs it the most.
 
 
 The smartphone app proposed will have features such as remote sensing technology, plant disease diagnosis, and timely reminders to support farmers in taking care of their farms. 
 
 
-## Remote Sensing Technology (Proof of concept done on a Malaysia Farm)
+## Remote Sensing Technology (Validation of concept done on a Malaysia Farm)
 
-The remote sensing technology will done by collecting free open-source satellite data from space agencies around the world such as NASA, CSA, CNES, JAXA, and ESA. These data will be integrated into our smartphone app to allow smallholder farmers access to such the technology to improve the crop production of their farms:
+The remote sensing technology will done by collecting free open-source satellite data from space agencies around the world such as NASA, CSA, CNES, JAXA, and ESA. These data will be integrated into our smartphone app to allow smallholder farmers access to such the technology to improve the crop production of their farms as shown below:
 
 
 <p align="center">
@@ -40,12 +43,9 @@ type of useful information about the farm while accurately indicating the affect
 Our validation step involves obtaining open data multispectral imagery captured by satellite
 MSS sensors and processing these images to derive the NDVI index for an area of farmland.
 The image data extraction and processing are aided by functionalities and software readily
-available by the European Space Agency (ESA).
-We source our data directly from the [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus) 
-which provides free and open access to imagery captured
-by the Sentinel satellites launched during the Copernicus program during 2014 to 2015. The
-Open Access hub allows us to specify to exact regions of interest, satellite sensing periods, and
-selection of Sentinel imagery required.
+available by the European Space Agency (ESA). We source our data directly from the [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus) 
+which provides free and open access to imagery captured by the Sentinel satellites launched during the Copernicus program during 2014 to 2015. The
+Open Access hub allows us to specify to exact regions of interest, satellite sensing periods, and selection of Sentinel imagery required.
 We then utilise ESA’s Sentinel Application Platform (SNAP) program, which allows combination
 of several multispectral data to display satellite images. 
 
@@ -80,7 +80,7 @@ vegetation and yellowish regions suggest the contrary.
 
 
 
-## Plant Disease Diagnosis
+## Plant Disease Diagnosis  (Validation on open-source dataset)
 
 This repository consist of a simple prototype/proof of an AI system that is able to classify different plant diseases. We used the FastAI API to train on our dataset. The dataset was obtained from PlantVillage. [PlantVillage](https://arxiv.org/abs/1511.08060) is an open-source dataset consisting of over 50,000 expertly curated images of healthy and infected leaves of crop plants. 
 
