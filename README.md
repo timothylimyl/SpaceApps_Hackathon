@@ -6,19 +6,73 @@ Our team (AgriCarer) is seeking to tackle the knowledge inequality problem curre
 
 
 # Idea Proposal
-We are proposing an user friendly smartphone app to support farmers with state-of-the-art technologies and expert research advice to solve the problem of the knowledge gap and the problem of yield losses in crop plants. Most local farmers that we talked to do not have the necessary extra funds to invest in technology and they are also averse to new technology. Therefore, a smartphone app was suggested by the team as it will lower the cost of entry for farmers as most farmers already own a smartphone, making the technology much easier to adopt.
+
+We are proposing an user friendly smartphone app to support farmers with state-of-the-art technologies and expert research advice to solve the problem of the knowledge gap and the problem of yield losses in crop plants. Most local farmers that we talked to do not have the necessary extra funds to invest in technology and they are also averse to new technology. Therefore, a smartphone app was suggested by the team as it will lower the cost of entry for farmers as most farmers already own a smartphone, making the technology much easier to adopt for smallholders farmers that needs it the most.
 
 
 The smartphone app proposed will have features such as remote sensing technology, plant disease diagnosis, and timely reminders to support farmers in taking care of their farms. 
 
 
 
-## Remote Sensing Technology 
+## Remote Sensing Technology (Proof of concept done on a Malaysia Farm)
 
 The remote sensing technology will done by collecting free open-source satellite data from space agencies around the world such as NASA, CSA, CNES, JAXA, and ESA.
 
+The remote sensing functionality utilizes Multispectral Scanner System (MSS) sensors equipped
+on satellites. MSS sensors have the ability to capture data at exceptional spatial resolution as
+well as determine reflectance in near-infrared. Studies have shown that the electromagnetic
+data collected by the MSS sensors can be utilised for crop monitoring using vegetation indices
+(computed by using a combination of electromagnetic data captured).
 
-edgar + jiaren write more ...? put some maps, your findings.
+Vegetation indices can be defined as the indicator that quantifies vegetation biomass and plant
+vigor for each pixel in a remote sensing image which allows reliable spatial and temporal inter-
+comparisons of terrestrial photosynthetic activity and canopy structural variations. A few
+examples of vegetation indices which can be calculated from the data obtained from MSS
+sensor on satellites are NDVI, MCARI, TCARI and PVI, all which are capable of relaying some
+type of useful information about the farm while accurately indicating the affected area. (Reference: [1](https://worldwidescience.org/topicpages/m/multispectral+scanner+applications.html) [2](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/multispectral-scanner))
+
+
+Our validation step involves obtaining open data multispectral imagery captured by satellite
+MSS sensors and processing these images to derive the NDVI index for an area of farmland.
+The image data extraction and processing are aided by functionalities and software readily
+available by the European Space Agency (ESA).
+We source our data directly from the [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus) 
+which provides free and open access to imagery captured
+by the Sentinel satellites launched during the Copernicus program during 2014 to 2015. The
+Open Access hub allows us to specify to exact regions of interest, satellite sensing periods, and
+selection of Sentinel imagery required.
+We then utilise ESA’s Sentinel Application Platform (SNAP) program, which allows combination
+of several multispectral data to display satellite images. 
+
+The common types of images are RGB (Red, Green, Blue) and Infrared as show below (we extracted images of a farm in Bukit Rotan,Kuala Selangor,Malaysia) to show a proof of concept:
+
+RGB:
+![rgd](images/rgb.png)
+
+Infrared:
+![infar](images/infrared.png)
+
+
+As a proof of concept, our team derived one common vegetation index, Normalized Difference Vegetation Index (NDVI) using the software SNAP to customise combination of light bands to derive useful mapping presentation. In this case, we derive the NDVI mapping by considering the formula above, with NIR and Red represented by bands B8 and B4.
+
+![infar](images/SNAP_extract.png)
+
+Example of NDVI images that was preprocessed:
+
+![infar](images/ndvi.png)
+
+
+NDVI, which measures the amount of green vegetation in an area. NDVI is based on the principle that actively growing green plants strongly absorb radiation in the visible region of the spectrum (the “PAR,” or “photosynthetically active radiation”), while strongly reflecting radiation
+in the near-infrared (NIR) region. A healthy plant with lots of chlorophyll. NDVI is a standardized
+way to measure healthy vegetation. When you have high NDVI values, you have healthier
+vegetation. When you have low NDVI, you have less or no vegetation and good cell structure
+will actively absorb red light and reflect near infrared. [Reference](https://www.researchgate.net/publication/334547726_Application_of_normalized_difference_vegetation_index_NDVI_to_forecast_rodent_population_abundance_in_smallholder_agro-ecosystems_in_semi-arid_areas_in_Tanzania)
+
+In our instance above, we defined our spectrum of low NDVI (represented by yellow) and high
+NDVI (green). Greener regions, i.e towards the end of the spectrum suggests healthier
+vegetation and yellowish regions suggest the contrary.
+
+Thus, we can integrate these open-source satelitte imagery to our smartphone app and provide the technology to smallholder farmers to improve the crop production of their farms.
 
 
 
@@ -58,8 +112,6 @@ Put a gif from the app (flows from camera -> diagnosis)
 We will approach plant pathologist and researchers to seek out expert advice on what kind of immediate actions are required, general advices and preventative measures for the specific disease detected. These informations can then be immediately disseminated to the farmers right after the plant is classified through the app. Thus, the app can greatly support farmers in identifying diseases and recommend the best course of actions. We believe that this will increase the crop yield of local farmers and bridge the gap between farmers and researchers.
 
 
-
-## Prototype: Smartphone App
 
 
 
