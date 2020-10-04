@@ -13,10 +13,15 @@ We are proposing an user friendly smartphone app (AgriCare) to support farmers w
 The smartphone app proposed will have features such as remote sensing technology, plant disease diagnosis, and timely reminders to support farmers in taking care of their farms. 
 
 
-
 ## Remote Sensing Technology (Proof of concept done on a Malaysia Farm)
 
-The remote sensing technology will done by collecting free open-source satellite data from space agencies around the world such as NASA, CSA, CNES, JAXA, and ESA.
+The remote sensing technology will done by collecting free open-source satellite data from space agencies around the world such as NASA, CSA, CNES, JAXA, and ESA. These data will be integrated into our smartphone app to allow smallholder farmers access to such the technology to improve the crop production of their farms:
+
+
+<p align="center">
+  <img src="https://github.com/timothylimyl/SpaceApps_Hackathon/blob/main/images/ndvi_app_example.gif" alt="Sublime's custom image"/>
+</p>
+
 
 The remote sensing functionality utilizes Multispectral Scanner System (MSS) sensors equipped
 on satellites. MSS sensors have the ability to capture data at exceptional spatial resolution as
@@ -72,7 +77,6 @@ In our instance above, we defined our spectrum of low NDVI (represented by yello
 NDVI (green). Greener regions, i.e towards the end of the spectrum suggests healthier
 vegetation and yellowish regions suggest the contrary.
 
-Thus, we can integrate these open-source satelitte imagery to our smartphone app and provide the technology to smallholder farmers to improve the crop production of their farms.
 
 
 
@@ -104,9 +108,12 @@ Thus, when a plant is taken as a whole, the AI will most probably fail to classi
 
 Our team is well aware of the problem of misclassification which is why we believe that this making an app that is widely available and accessible is a great idea for mass data collection in order to train a more robust AI model. We believe that by pre-processing images taken by the farmer and allowing farmers to pick out leaves of interest for diagnosis (classification) will ensure great AI classification results that farmers can confidently trust in. The most important principle for success is a sound standardized imaging procedure that yields repeatable results. Our team also believes that the classifier can be extended to classify pests to support farmers.
 
-An illustration of our app prototype after the classifying process:
+An illustration of our app prototype:
 
-Put a gif from the app (flows from camera -> diagnosis)
+
+<p align="center">
+  <img src="https://github.com/timothylimyl/SpaceApps_Hackathon/blob/main/images/diagnose_app_example.gif" alt="Sublime's custom image"/>
+</p>
 
 
 We will approach plant pathologist and researchers to seek out expert advice on what kind of immediate actions are required, general advices and preventative measures for the specific disease detected. These informations can then be immediately disseminated to the farmers right after the plant is classified through the app. Thus, the app can greatly support farmers in identifying diseases and recommend the best course of actions. We believe that this will increase the crop yield of local farmers and bridge the gap between farmers and researchers.
